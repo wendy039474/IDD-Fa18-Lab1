@@ -2,7 +2,7 @@
 
 ## Part A. Set Up a Breadboard
 
-![BreadBoard Setup](/images/image1.jpeg)
+[Breadboard Setup](/image1.jpeg)
 
 
 ## Part B. Manually Blink a LED
