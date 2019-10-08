@@ -38,9 +38,7 @@ I would probably add a print statement after each state changing of the LED to s
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-[Rei_Blink](File:Rei_Blink.ino)
-
-Rei_Blink.ino
+[Rei_Blink](//github.com/wendy039474/idd-fa18-lab1/Rei_Blink.ino)
 
 ### 2. Blink your LED
 
