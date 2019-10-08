@@ -57,7 +57,11 @@ Yes: based on the circuit we used, having the 220 Ω resistor ensures that the v
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+Line 16, setting the LED pin from 9 to 11.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
+analogWrite() gives the ability of serial changingof voltage, dividing 5V into 0~255, whereas digitalWrite() can only set a pin state to be HIGH(5V) or LOW(GND).
 
 
 ## Part F. FRANKENLIGHT!!!
