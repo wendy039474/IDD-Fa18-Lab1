@@ -46,12 +46,12 @@ I would probably add a print statement after each state changing of the LED to s
 
 [Rei_Blink_Video](//youtu.be/7gvGH8JeNBg)
 
-(Sorry that I didn't have a 220 Ohm resistor...)
+(Sorry that I didn't have a 220 Ω resistor...)
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-hi
+Yes: based on the circuit we used, having the 220 Ω resistor ensures that the voltage across the LED won't exceed the limitation even if the potentiometer is set to be 0 Ω.
 
 ## Part E. Fade an LED using Arduino
 
