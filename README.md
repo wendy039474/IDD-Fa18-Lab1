@@ -44,10 +44,9 @@ I would probably add a print statement after each state changing of the LED to s
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[Rei_Blink_Video](//www.youtube.com/watch?v=peJenCfrUTk&feature=youtu.be)
+[Rei_Blink_Video](//youtu.be/7gvGH8JeNBg)
 
-I used pin 13 directly without declaring another pin for external LED.
-
+(Sorry that I didn't have a 220 Ohm resistor...)
 
 ## Part D. Manually fade an LED
 
