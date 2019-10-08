@@ -7,9 +7,11 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
 Brown-Black-Brown
 
 **b. What do you have to do to light your LED?**
+
 After building up the circuit, we will need to press the button to form a close circuit to light up the LED.
 
 ## Part C. Blink a LED using Arduino
