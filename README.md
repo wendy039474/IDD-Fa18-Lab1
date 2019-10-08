@@ -20,11 +20,21 @@ After building up the circuit, we will need to press the button to form a close 
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+Modifying the code of line 33-36, within the loop function, will change the blinking of the LED.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+
+Line 34 and 35, two lines of delay function, control the rate of LED for staying on and off and can be changed to change the rate of blinking.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
  
+Adding a resistor in the circuit to protect both the board and the external LED as limiting the voltage across the LED to protect it from burning.
+ 
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
+With the delay parameter at 15 I could hardly tell the blinking.
+
+I would probably add a print statement after each state changing of the LED to see whether the statement is being printed out. If yes, that mean the code did run through successfully with each lines.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
