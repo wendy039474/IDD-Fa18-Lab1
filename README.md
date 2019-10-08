@@ -2,7 +2,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+![BreadBoard Setup](/images/image1.jpeg)
 
 
 ## Part B. Manually Blink a LED
