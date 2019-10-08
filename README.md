@@ -1,6 +1,7 @@
 # IDD-Fa19-Lab1: Blink!
 
 ## Part A. Set Up a Breadboard
+<img src="/image1.jpeg">
 
 [Breadboard Setup](/image1.jpeg)
 
