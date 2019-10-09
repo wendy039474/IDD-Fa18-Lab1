@@ -68,13 +68,24 @@ analogWrite() gives the ability of serial changingof voltage, dividing 5V into 0
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+<img src="/System Diagram.jpeg">
+
+<img src="/LED Wristband1.jpeg"><img src="/LED Wristband2.jpeg"><img src="/LED Wristband3.jpeg">
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+
+Yes, I believe the small black chip on the left of LED2 (in the images above) is the "computer". The "computer" is in charge of analyzing the signals it will get from IR receiver and transcript them into commands to control the blinking rates and colors of both of the LEDs.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
+Yes, the IR receiver is a sensor that sensing IR signals from the environment. Once the IR receiver gets IR signals, it will send the signals to the "computer" chip on the board to be transcripted into commands. Those commands will be controlling the blinking rates and colors of both of the LEDs.
+
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The device is powered with two lithium cells providing input voltage at 6V which does not seem like having transformation or regulation of the power. The device comes with onboard resistor that makes sure the working voltage of both LEDs won't exceed the limitation.
+
 **d. Is information stored in your device? Where? How?**
+Yes: since the "computer" need to be able to transcipt IR signals into commands for LEDs, there needs to be pre-set code to store the information. The information might be stored on one of the black chips on the device but I'm not sure which one it is, it could be the processing chip comes with memory storage itself.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
