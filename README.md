@@ -89,10 +89,8 @@ Yes: since the "computer" need to be able to transcipt IR signals into commands 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+At first, I thought the easiest way to hijack the device and implant an LED would be doing a parallel connect with the LEDs that are already on the board; however, to do this, I might need to have a IR transmitter to send signals to this device which I don't have one. Here, I chose just to use the power from the battery on board to power my Metro mini and controll the LED cirucit I had for this lab.
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
+[Rei_Frankenlight](//youtu.be/Gpvplpwjb9c)
